@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+/*** 舜王翻页代码
+-------------------------------------------------------------- ****/
+.pageBox {text-align: center; width:750px;}
+.pageBox a {border:1px solid #ddd;display:inline-block;margin-right:6px;color: #707070;width:34px;height:34px;font:bold 14px/34px arial;}
+.pageBox a:hover,.pageBox a:active{background:#3aa9f2;color: #FFFFFF;text-decoration: none;}
+.pageBox .cur { background: #3aa9f2;border: 1px solid #3aa9f2;text-decoration: none;}
+.pageBox a.cur {color: #fff;}
+.pageBox .disabled {width: 79px;}

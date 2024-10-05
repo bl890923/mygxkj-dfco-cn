@@ -1,0 +1,29 @@
+
+/*焦点图 start*/
+
+#bodyPage{
+	width:100%; 
+	min-height:100%; 
+	height:auto !important; 
+	height:100%; 
+	position:fixed; 
+	top:0; 
+	left:0; 
+	}
+img.bg { 
+	position:absolute; 
+	top: 0px; 
+	left: 0px; 
+	z-index:1; 
+	display:none;
+	}
+footer{
+	position:fixed; 
+	z-index:999; 
+	bottom:0; 
+	left:0;
+	}
+.footer{
+	background:rgba(255,255,255,.2);
+	}
+/*焦点图 end*/
